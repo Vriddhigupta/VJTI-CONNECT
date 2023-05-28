@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VJTI</string>
+    <string name="welcome">Welcome to VJTI App</string>
+    <string name="please">Please Wait.....</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="academic_section">ACADEMIC</string>
+    <string name="ji">HI THERE !</string>
+    <string name="grading">CGPA CALCULATOR</string>
+    <string name="clubs">CLUBS</string>
+    <string name="resources">E-RESOURCES</string>
+    <string name="first">FIRST YEAR</string>
+    <string name="second">SECOND</string>
+    <string name="third">THIRD</string>
+    <string name="four">FOUR</string>
+    <string name="second1">SECOND YEAR</string>
+    <string name="third1">THIRD YEAR</string>
+    <string name="four1">FOURTH YEAR</string>
+    <string name="academic_years">ACADEMIC YEARS</string>
+</resources>

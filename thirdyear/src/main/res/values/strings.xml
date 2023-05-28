@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">THIRD YEAR</string>
+    <string name="IT">INFORMATION TECHNOLOGY</string>
+    <string name="CS">COMPUTER</string>
+    <string name="EX">EXTC</string>
+    <string name="EC">ELECTRONICS</string>
+    <string name="EL">ELECTRICAL</string>
+    <string name="MECH">MECHANICAL</string>
+    <string name="CIVIL">CIVIL</string>
+    <string name="PROD">PRODUCTION</string>
+    <string name="TEXT">TEXTILE MANUFACTURES</string>
+    <string name="textile">TEXTILE</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Civil</string>
+    <string name="civil">Civil Engineering</string>
+    <string name="tt">TIMETABLE</string>
+    <string name="SY">SYLLABUS</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="ty">SYLLABUS FOR T.Y.BTECH</string>
+    <string name="grades">GRADES</string>
+    <string name="choose">CHOOSE FILE</string>
+    <string name="upload">UPLOAD FILE</string>
+    <string name="hint">Enter a name for your file</string>
+    <string name="text" />
+    <string name="test">No file selected</string>
+    <string name="classroom">CLASSROOM</string>
+</resources>

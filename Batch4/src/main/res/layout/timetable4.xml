@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".timetable4"
+    tools:ignore="ContentDescription">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:background="@drawable/box_blue_left_incurve"
+        app:title=" "
+        app:titleTextColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/icon_arrow"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="110dp"
+                android:gravity="center"
+                android:text="@string/timetable"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+
+    <!--        android:background="@color/colorPrimary"-->
+
+    <!--        android:minHeight="?attr/actionBarSize"-->
+    <!--        android:theme="?attr/actionBarTheme"-->
+    <!--        app:title="Batch1"-->
+    <!--        app:titleTextColor="#E4D7DC">-->
+
+    <!--    </androidx.appcompat.widget.Toolbar>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:background="@color/dark_blue"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/box_white_right_incurvre"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/down4"
+                android:layout_width="200dp"
+                android:layout_height="57dp"
+                android:layout_below="@id/imageView4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box_peach_solid"
+                android:drawableRight="@drawable/icon_download"
+                android:drawableTint="@color/text_black"
+                android:padding="10dp"
+                android:text="Download"
+                android:textAllCaps="false"
+                android:textColor="@color/text_black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="400dp"
+                android:layout_height="500dp"
+                android:layout_below="@id/toolbar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="44dp"
+                android:padding="9dp"
+                app:srcCompat="@drawable/batch4" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".timetable4"-->
+<!--    tools:ignore="ContentDescription">-->
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:background="@color/colorPrimary"-->
+
+<!--        android:minHeight="?attr/actionBarSize"-->
+<!--        android:theme="?attr/actionBarTheme"-->
+<!--        app:title="Batch4"-->
+<!--        app:titleTextColor="#E4D7DC">-->
+
+<!--    </androidx.appcompat.widget.Toolbar>-->
+<!--    <Button-->
+<!--        android:id="@+id/down4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/download_button"-->
+<!--        android:layout_below="@id/imageView4" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView4"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="500dp"-->
+<!--        android:layout_below="@id/toolbar4"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="44dp"-->
+<!--        app:srcCompat="@drawable/batch4" />-->
+
+
+
+<!--</RelativeLayout>-->

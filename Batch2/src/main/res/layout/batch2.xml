@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Batch2"
+    android:background="@color/white"
+    tools:ignore="RtlCompat">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_home"
+        app:elevation="0dp"
+        android:background="@color/white"
+        android:layout_height="65dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            app:title=" "
+            app:titleTextColor="@color/white">
+            <!--            android:background="@drawable/box_white_outline" >-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:src="@drawable/icon_arrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="110dp"
+                    android:text="Batch2"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_blue"
+        android:layout_above="@id/bottom_navigator"
+        android:layout_below="@id/toolbar_home">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_navigator"
+            android:layout_below="@id/toolbar_home"
+            android:gravity="center"
+            android:background="@drawable/box_white_right_bottom_incurvre"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:onClick="goto_timetable"
+                android:background="@drawable/box_peach_outline_white_solid"
+                android:text="TimeTable"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:onClick="goto_syllabus"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@drawable/box_peach_outline_white_solid"
+                android:text="Syllabus"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:onClick="goto_grade"
+                android:background="@drawable/box_peach_outline_white_solid"
+                android:text="@string/grade"/>
+
+
+            <!--            <Button-->
+            <!--                android:id="@+id/button4"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+
+            <!--                android:background="@android:color/transparent"-->
+            <!--                android:fontFamily="@font/bevan"-->
+            <!--                android:onClick="goto_timetable"-->
+            <!--                android:text="@string/timetable"-->
+            <!--                android:textColor="@android:color/white"-->
+            <!--                android:textSize="24sp" />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/button5"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginStart="155dp"-->
+            <!--                android:layout_marginTop="401dp"-->
+            <!--                android:layout_marginEnd="142dp"-->
+            <!--                android:layout_marginBottom="282dp"-->
+            <!--                android:background="@android:color/transparent"-->
+            <!--                android:fontFamily="@font/bevan"-->
+            <!--                android:onClick="goto_syllabus"-->
+            <!--                android:text="@string/syllabus"-->
+            <!--                android:textColor="@android:color/white"-->
+            <!--                android:textSize="24sp"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/button6"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginStart="155dp"-->
+            <!--                android:layout_marginTop="519dp"-->
+            <!--                android:layout_marginEnd="142dp"-->
+            <!--                android:layout_marginBottom="164dp"-->
+            <!--                android:background="@android:color/transparent"-->
+            <!--                android:fontFamily="@font/bevan"-->
+            <!--                android:onClick="goto_grade"-->
+            <!--                android:text="@string/grade"-->
+            <!--                android:textColor="@android:color/white"-->
+            <!--                android:textColorLink="#FFFFFF"-->
+            <!--                android:textSize="24sp"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toTopOf="parent" />-->
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/box_blue_left_top_incurve"
+        app:itemIconSize="30sp"
+        app:itemIconTint="@drawable/selector_bottom_nav"
+        app:itemTextColor="@drawable/selector_bottom_nav"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/menu_bottom_nav" />
+
+
+</RelativeLayout>
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".Batch2"-->
+<!--    android:background="@drawable/background1"-->
+<!--    tools:ignore="RtlCompat">-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+
+<!--        >-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView7"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="162dp"-->
+<!--            android:layout_marginTop="112dp"-->
+<!--            android:layout_marginEnd="179dp"-->
+<!--            android:layout_marginBottom="589dp"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/batch2"-->
+<!--            android:textAppearance="?android:textAppearanceLarge"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button7"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="111dp"-->
+<!--            android:layout_marginTop="204dp"-->
+<!--            android:layout_marginEnd="130dp"-->
+<!--            android:layout_marginBottom="479dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:onClick="goto_timetable"-->
+<!--            android:text="@string/timetable"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="24sp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button8"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="121dp"-->
+<!--            android:layout_marginTop="313dp"-->
+<!--            android:layout_marginEnd="144dp"-->
+<!--            android:layout_marginBottom="370dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:onClick="goto_syllabus"-->
+<!--            android:text="@string/syllabus"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="24sp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button9"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="149dp"-->
+<!--            android:layout_marginTop="454dp"-->
+<!--            android:layout_marginEnd="154dp"-->
+<!--            android:layout_marginBottom="229dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:onClick="goto_grade"-->
+<!--            android:text="@string/grade"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="24sp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.479"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--  </androidx.constraintlayout.widget.ConstraintLayout>-->

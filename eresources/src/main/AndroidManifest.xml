@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_resources">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Constants2"></activity>
+        <activity android:name=".finalyearbtechpastpapers" />
+        <activity android:name=".finalyearbtechbooks" />
+        <activity android:name=".tybtechpastpapers" />
+        <activity android:name=".tybtechbooks" />
+        <activity android:name=".sybtechpastpapers" />
+        <activity android:name=".sybtechbooks" />
+        <activity android:name=".ViewUploadsActivity" />
+        <activity android:name=".fybtechpastpapers" />
+        <activity android:name=".fybtechbooks" />
+        <activity android:name=".fybtech" />
+        <activity android:name=".finalyearbtech" />
+        <activity android:name=".tybtech" />
+        <activity android:name=".sybtech" />
+        <activity android:name=".btech" />
+        <activity android:name=".resources">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

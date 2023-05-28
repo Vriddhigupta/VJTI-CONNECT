@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">EVENTS</string>
+    <string name="events">EVENTS</string>
+    <string name="techno">TECHNOVANZA</string>
+    <string name="PRATI">PRATIBIMB</string>
+    <string name="ECELL">E-CELL</string>
+    <string name="ENTHU">ENTHUSIA</string>
+    <string name="RANGA">RANGAWARDHAN</string>
+    <string name="title_activity_techno">techno</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tech">Due to inundating creativity and thirst for innovation of our students and with the constant support of our unparalleled faculty, Technovanza was born in 2000. Keeping in mind our core values of working as a team with integrity and professionalism and the ultimate aim of \"Taking Technology to the Society\", Technovanza has grown over the last 20 years to become one of the most popular and awaited techno-management events in the country.</string>
+    <string name="web">
+    <a href="http://www.technovanza.org/">Click on this to visit Official Website </a>
+</string>
+    <string name="facebook">
+        <a href="https://www.facebook.com/technovanza">Click on this to visit Facebook Page</a>
+    </string>
+    <string name="insta">
+        <a href="https://www.instagram.com/technovanza/?hl=en">Click on this to visit Instagram Page</a>
+    </string>
+    <string name="youtube">
+       <a href="https://www.youtube.com/user/technovanzaVJTI">Click on this to visit Youtube Channel</a>
+   </string>
+    <string name="web1">
+    <a href="http://www.pratibimbvjti.org/">Click on this to visit Official Website </a>
+</string>
+    <string name="facebook1">
+        <a href="https://www.facebook.com/pratibimbvjti">Click on this to visit Facebook Page</a>
+    </string>
+    <string name="insta1">
+        <a href="https://www.instagram.com/pratibimbvjti/?hl=en">Click on this to visit Instagram Page</a>
+    </string>
+    <string name="youtube1">
+       <a href="https://www.youtube.com/user/PratibimbVJTI">Click on this to visit Youtube Channel</a>
+   </string>
+    <string name="youtube2">
+       <a href="https://www.youtube.com/channel/UCViD1NXsuwp_pCS8vzrQ9IQ">Click on this to visit Youtube Channel</a>
+   </string>
+    <string name="facebook2">
+        <a href="https://www.facebook.com/public/Rangawardhan-Vjti">Click on this to visit Facebook Page</a>
+    </string>
+    <string name="insta2">
+        <a href="https://www.instagram.com/rangawardhan/?hl=en">Click on this to visit Instagram Page</a>
+    </string>
+    <string name="prati">"Pratibimb, Veermata Jijabai Technological Institute's Socio-cultural extravaganza is a national level celebration enveloping Mumbai's young and artistic minds into amalgamation of creativity and imagination. Pratibimb VJTI has now established itself as a brand with a proud legacy and an unflinching zeal of achieving it's mission - Help one find his/her reflection. Termed as the Mirror of Emotions, Pratibimb VJTI hopes tor aise the bar in each year, with double the entertainment and double the fun! Come aboard and hop on to one of the most beautiful journeys of seeking the soul of your artistic self "</string>
+    <string name="ranga">Rangawardhan, the Annual Marathi Cultural Fest of VJTI, organised under the aegis of VJTI Social Group is among the various cultural activities of VJTI which is indeed a jewel in the crown. Preserving the Marathi culture and adopting to the modern, Rangawardhan has carved a special niche for itself in everyone\'s heart.</string>
+
+    <string name="youtube3">
+       <a href="https://www.youtube.com/channel/UC5D9lwwnMEyBLQOUc_7kpLQ">Click on this to visit Youtube Channel</a>
+   </string>
+    <string name="facebook3">
+        <a href="https://www.facebook.com/enthusiavjti">Click on this to visit Facebook Page</a>
+    </string>
+    <string name="insta3">
+        <a href="https://www.instagram.com/enthusiavjti/?hl=en">Click on this to visit Instagram Page</a>
+    </string>
+    <string name="web3">
+        <a href="http://www.enthusia.in/">Click on this to visit Official website</a>
+   
+    </string>
+    <string name="youtube4">
+       <a href="https://www.youtube.com/channel/UCRR4HZbHYQ0OYm3YXo6ivKg">Click on this to visit Youtube Channel</a>
+   </string>
+    <string name="facebook4">
+        <a href="https://www.facebook.com/ecell.vjti/">Click on this to visit Facebook Page</a>
+    </string>
+    <string name="insta4">
+        <a href="https://www.instagram.com/ecellvjti/?hl=en">Click on this to visit Instagram Page</a>
+    </string>
+    <string name="web4">
+        <a href="https://ecellvjti.org/">Click on this to visit Official website</a>
+    </string>
+    <string name="enthu">When we say Enthusia is one of the biggest sports festival in India, it\'s no exaggeration! Graced withsome of the best sports facilities one could ask for, this annual festival issure toset your heartbeat racing, and give you that adrenaline rush. Some of the most skilled and talented sport\'s people lock horns in front of hoards of fand spurring the players on to bring the best outof them. Our vision is to nurture sports talent to make players realize their full potential.</string>
+    <string name="ecell">"Entrepreneurship Cell, VJTI, popularly known as E-Cell, is a non-profit student hub run by the enthusiastic students of VJTI. Instated in the year 2006 to foster the spirit of entrepreneurship and business acumen among the students, it accelerates the journey from an innovative idea to a commercial success by means of a myriad of competitions, hands-on workshops and one-on-one mentoring. E-Cell VJTI strives to be ath the forefront by creating networking and funding opportunities for students' startups while grooming and nurturing them. E-Cell envision the creation of leaders and visionaries whocan disrupt the market space with their ideas.  "</string>
+    <string name="event">"                               EVENTS"</string>
+    <string name="E">"                       EVENTS"</string>
+    <string name="e">"                         EVENTS"</string>
+</resources>

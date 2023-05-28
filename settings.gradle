@@ -1,0 +1,2 @@
+rootProject.name='VJTI'
+include ':app', ':Events', ':Clubs', ':Calculator', ':simplelibrary', ':eresources', ':Computer', ':Mechanical', ':Textile', ':Civil', ':Electronics', ':IT', ':thirdyear', ':Electrical1', ':Production', ':EXTC', ':Batch6', ':Batch4', ':Batch5', ':firstyear', ':Batch2', ':Batch3', ':Batch1', ':fourthyear', ':ProdSy', ':CsSy', ':MechSy', ':TextileSy', ':ITSy', ':secondyear1', ':ELECTRONICSSy', ':ETCSy', ':CivilSy', ':ElectronicsAndTelecomSy'

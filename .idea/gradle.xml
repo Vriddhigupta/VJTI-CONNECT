@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Batch1" />
+            <option value="$PROJECT_DIR$/Batch2" />
+            <option value="$PROJECT_DIR$/Batch3" />
+            <option value="$PROJECT_DIR$/Batch4" />
+            <option value="$PROJECT_DIR$/Batch5" />
+            <option value="$PROJECT_DIR$/Batch6" />
+            <option value="$PROJECT_DIR$/Calculator" />
+            <option value="$PROJECT_DIR$/Civil" />
+            <option value="$PROJECT_DIR$/CivilSy" />
+            <option value="$PROJECT_DIR$/Clubs" />
+            <option value="$PROJECT_DIR$/Computer" />
+            <option value="$PROJECT_DIR$/CsSy" />
+            <option value="$PROJECT_DIR$/ELECTRONICSSy" />
+            <option value="$PROJECT_DIR$/ETCSy" />
+            <option value="$PROJECT_DIR$/EXTC" />
+            <option value="$PROJECT_DIR$/Electrical1" />
+            <option value="$PROJECT_DIR$/Electronics" />
+            <option value="$PROJECT_DIR$/ElectronicsAndTelecomSy" />
+            <option value="$PROJECT_DIR$/Events" />
+            <option value="$PROJECT_DIR$/IT" />
+            <option value="$PROJECT_DIR$/ITSy" />
+            <option value="$PROJECT_DIR$/MechSy" />
+            <option value="$PROJECT_DIR$/Mechanical" />
+            <option value="$PROJECT_DIR$/ProdSy" />
+            <option value="$PROJECT_DIR$/Production" />
+            <option value="$PROJECT_DIR$/Textile" />
+            <option value="$PROJECT_DIR$/TextileSy" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/eresources" />
+            <option value="$PROJECT_DIR$/firstyear" />
+            <option value="$PROJECT_DIR$/fourthyear" />
+            <option value="$PROJECT_DIR$/secondyear1" />
+            <option value="$PROJECT_DIR$/simplelibrary" />
+            <option value="$PROJECT_DIR$/thirdyear" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

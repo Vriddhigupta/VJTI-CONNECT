@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/acad"
+        android:icon="@drawable/icon_acad"
+        android:title="Academics"/>
+
+    <item
+        android:id="@+id/cgpa"
+        android:title="CGPA Calculator"
+        android:icon="@drawable/icon_calc"/>
+
+
+    <item
+        android:id="@+id/clubs"
+        android:title="Clubs"
+        android:icon="@drawable/icon_clubs"/>
+
+    <item
+        android:id="@+id/eresource"
+        android:title="Eresources"
+        android:icon="@drawable/icon_eres"/>
+
+</menu>

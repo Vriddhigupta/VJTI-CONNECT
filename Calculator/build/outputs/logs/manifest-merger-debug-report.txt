@@ -1,0 +1,57 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:7:5-27:19
+	android:supportsRtl
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:8:9-35
+activity#cgpakoto.com.cgpa.Activities.Home
+ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:13:9-16:20
+	android:name
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:13:19-50
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:18:9-20:70
+	android:value
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:20:13-67
+	android:name
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:19:13-69
+activity#cgpakoto.com.cgpa.Activities.Calculator
+ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:22:9-26:20
+	android:label
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:23:13-50
+uses-sdk
+INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Electrical</string>
+    <string name="electrical">Electrical Engineering</string>
+    <string name="timetable">TIMETABLE</string>
+    <string name="syllabus">SYLLABUS</string>
+    <string name="download">Download</string>
+    <string name="ty">SYLLABUS FOR T.Y.BTECH</string>
+    <string name="grades">GRADES</string>
+    <string name="test">No file selected</string>
+    <string name="hint">Enter a name of your file(EXAM_COURSENAME)</string>
+    <string name="UPLOAD">UPLOAD FILE</string>
+</resources>

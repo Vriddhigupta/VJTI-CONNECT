@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".events"
+    tools:ignore = "ContentDescription"
+    android:background="@drawable/back">
+
+    <include
+        android:id="@+id/toolbar11"
+        layout="@layout/toolbar11"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="400dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/toolbar11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="@string/techno"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="@string/PRATI"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="400dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="@string/RANGA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="239dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="@string/ENTHU"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="239dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="@string/ECELL"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clubs"
+    tools:ignore="ContentDescription"
+    android:background="@color/white">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_home"
+        app:elevation="0dp"
+        android:background="@color/white"
+        android:layout_height="65dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            app:title=" "
+            app:titleTextColor="@color/white">
+            <!--            android:background="@drawable/box_white_outline" >-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:src="@drawable/icon_arrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="80dp"
+                    android:text="Clubs and Committees"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_blue"
+        android:layout_above="@id/bottom_navigator_home"
+        android:layout_below="@id/toolbar_home">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_navigator_home"
+            android:layout_below="@id/toolbar_home"
+            android:gravity="center"
+            android:background="@drawable/box_white_right_bottom_incurvre"
+            android:orientation="vertical">
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                android:rowCount="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    tools:targetApi="lollipop">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <Button
+                            android:id="@+id/btn_coc"
+                            android:layout_width="88dp"
+                            android:layout_height="88dp"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:background="@drawable/icon_coce" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Community of Coders"
+                            android:gravity="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    tools:targetApi="lollipop">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <Button
+                            android:id="@+id/btn_gdsc"
+                            android:layout_width="88dp"
+                            android:layout_height="88dp"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:background="@drawable/icon_gdsc" />
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Google Developers Student Club"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    tools:targetApi="lollipop">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <Button
+                            android:id="@+id/btn_sra"
+                            android:layout_width="wrap_content"
+                            android:layout_height="88dp"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:background="@drawable/icon_sra" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Society of Robotics and Automation"
+                            android:gravity="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    tools:targetApi="lollipop">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <Button
+                            android:id="@+id/btn_dla"
+                            android:layout_width="88dp"
+                            android:layout_height="88dp"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:background="@drawable/icon_dla" />
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Debate and Literary Activities"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    tools:targetApi="lollipop">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <Button
+                            android:id="@+id/btn_prati"
+                            android:layout_width="95dp"
+                            android:layout_height="95dp"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:background="@drawable/icon_prati" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Pratibimb"
+                            android:gravity="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    tools:targetApi="lollipop">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <Button
+                            android:id="@+id/btn_techno"
+                            android:layout_width="95dp"
+                            android:layout_height="95dp"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:background="@drawable/icon_techno" />
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Technovanza"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator_home"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/box_blue_left_top_incurve"
+        app:itemIconSize="30sp"
+        app:itemIconTint="@drawable/selector_bottom_nav"
+        app:itemTextColor="@drawable/selector_bottom_nav"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/menu_bottom_nav" />
+
+</RelativeLayout>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@drawable/back2"-->
+<!--    tools:context=".clubs">-->
+
+<!--    <include-->
+<!--        android:id="@+id/toolbar"-->
+<!--        layout="@layout/toolbarclubs" />-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="95dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:width="225dp"-->
+<!--            android:height="70dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/coc"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="45sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="35dp"-->
+<!--            android:width="225dp"-->
+<!--            android:height="70dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/sra"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="45sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:width="225dp"-->
+<!--            android:height="70dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/Dla"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="45sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:width="225dp"-->
+<!--            android:height="70dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/ieee"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="45sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button5"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:width="225dp"-->
+<!--            android:height="70dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/aero"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="45sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button6"-->
+<!--            android:layout_width="256dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:width="225dp"-->
+<!--            android:height="70dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/racing"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="45sp"-->
+<!--            android:textStyle="bold" />-->
+
+
+<!--    </LinearLayout>-->
+
+
+<!--</RelativeLayout>-->

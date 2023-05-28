@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".syllabus4"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@drawable/box_blue_left_incurve"
+        android:gravity="center"
+        app:title=" "
+        app:titleTextColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/icon_arrow"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="110dp"
+                android:gravity="center"
+                android:text="Syllabus"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:text="Click on the button below to download the syllabus PDF"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/dark_blue"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/down1"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:layout_below="@id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textColor="@color/text_black"
+            android:drawableTint="@color/text_black"
+            android:drawableRight="@drawable/icon_download"
+            android:background="@drawable/box_peach_solid"
+            android:text="Download" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".syllabus4"-->
+<!--    tools:ignore="ContentDescription">-->
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar2"-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="?attr/colorPrimary"-->
+<!--        android:minHeight="?attr/actionBarSize"-->
+<!--        android:theme="?attr/actionBarTheme"-->
+<!--        app:title="       Batch1"-->
+<!--        app:titleTextColor="#E4D7DC" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/down1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/textView2"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="@string/download_syllabus" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_below="@id/toolbar2"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="@string/syllabus_of_batch4"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Display1"-->
+<!--        android:textColor="#483d8b"-->
+<!--        android:textSize="30sp"-->
+<!--        />-->
+
+
+
+
+<!--</RelativeLayout>-->

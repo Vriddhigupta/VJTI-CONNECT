@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Clubs</string>
+    <string name="club">Clubs</string>
+    <string name="coc">COC</string>
+    <string name="sra">SRA</string>
+
+    <string name="Dla">DLA</string>
+    <string name="ieee">IEEE</string>
+    <string name="aero">AERO</string>
+    <string name="racing">RACING</string>
+
+    <string name="coc_desp">A community of coding enthusiasts of VJTI . In today’s rapidly changing environment, programming skills are essential tools that can be utilized andincorporated into various fields and domains. Hence, it becomes absolutely essential to equip youngminds with such skills. CoC aims to establish a coding culture on campus, reaching every studentpassionate about coding.</string>
+    <string name="dla_desp">The DLA Society is incharge of all activities in VJTI related to, you guessed it, Debates and Literary Arts including GDs, Model UN(MUN), Creative Writing, Word Games, etc. It is responsible for more than 50% of the events organised as a part of Pratibimb, VJTI’s Cultural Festival. In addition to this, DLA organises activities through out the year ranging from seminars and workshops to in-house competitions.</string>
+    <string name="ieee_desp">IEEE. Stands for the \"Institute of Electrical and Electronics Engineers\" and is produced \"I triple E.\" The IEEE is a professional association that develops, defines, and reviews electronics and computer science standards. Its mission is \"to foster technological innovation and excellence for the benefit of humanity.\"</string>
+    <string name="aero_desp">VJTI has established SAE India Collegiate Club, a chapter of SAE India in 2008, under which Aero VJTI was formed by the keenly interested and enthusiastic students. The members are actively involved in design and development of efficient radio controlled aircrafts.  A thirst for perfection motivates us to design aircrafts to its fullest capability.  Designs are characterized by innovation, theoretical and practical optimization, expert validations.  For this we use detailed software analysis, experimental data, practical tests, and cutting edge technologies for precision construction.  Students of Aero VJTI participate in various national and international level competitions and also conduct workshops on arc planes and gliders.</string>
+    <string name="race_desp">Discover YOUR PASSION TO DRIVE .
+        Let your passion for the terrain take you places – come and explore the adrenaline-pumping automotive universe! For those who truly realize their passion, and feel nothing comes between their ride and the adrenaline that it unleashes, we’re here to offer you a dream, one that you can drive, The XENON 2.0</string>
+    <string name="fb1">Click Here To Visit Our Facebook Page</string>
+    <string name="ig1">Click Here To Visit Our Instagram Page</string>
+    <string name="wb">Click Here To Visit Our Website</string>
+
+</resources>

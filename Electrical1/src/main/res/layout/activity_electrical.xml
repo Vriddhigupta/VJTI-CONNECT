@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".electrical"
+    android:background="@drawable/backgroundel">
+    <include
+        android:id="@+id/toolbar2"
+        layout="@layout/toolbar2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="239dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/toolbar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/bevan"
+        android:text="@string/timetable"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="239dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/bevan"
+        android:text="@string/syllabus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="239dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/bevan"
+        android:text="@string/grades"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+
+

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Batch3</string>
+    <string name="enter_a_name_for_your_file">Enter a name for your file</string>
+    <string name="upload">Upload</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="batch3">Batch3</string>
+    <string name="timetable">Timetable</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="grade">grade</string>
+    <string name="download_syllabus">download syllabus</string>
+    <string name="syllabus_of_batch3">SYLLABUS OF BATCH3</string>
+    <string name="download_button">Download Button</string>
+</resources>

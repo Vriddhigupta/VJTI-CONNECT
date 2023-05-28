@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">E-resources</string>
+    <string name="let_us_all_pledge_to_go_green_and_save_paper_by_using_vjti_e_resources">Let us all pledge to GO GREEN and SAVE PAPER by using VJTI-E-resources!!</string>
+    <string name="btech_e_resources">BTECH E-RESOURCES</string>
+    <string name="first_year_btech">FIRST YEAR BTECH</string>
+    <string name="second_year_btech">SECOND YEAR BTECH</string>
+    <string name="third_year_btech">THIRD YEAR BTECH</string>
+    <string name="final_year_btech">FINAL YEAR BTECH</string>
+    <string name="final_year_past_year_papers">FINAL YEAR PAST YEAR PAPERS</string>
+    <string name="final_year_books_pdf">FINAL YEAR BOOKS PDF</string>
+    <string name="enter_a_name_for_your_file">Enter a name for your file</string>
+    <string name="uploade">Upload</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="fy_past_year_papers">FY PAST YEAR PAPERS</string>
+    <string name="fy_books_pdf">FY BOOKS PDF</string>
+    <string name="sy_past_year_papers">SY PAST YEAR PAPERS</string>
+    <string name="sy_books_pdf">SY BOOKS PDF</string>
+    <string name="ty_past_year_papers">TY PAST YEAR PAPERS</string>
+    <string name="ty_books_pdf">TY BOOKS PDF</string>
+
+</resources>

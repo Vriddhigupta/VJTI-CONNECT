@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EC_TT"
+    tools:ignore="ContentDescription">
+    <include
+        android:id="@+id/toolbar6"
+        layout="@layout/toolbar6" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:background="#00bcd4"
+        android:text="@string/DOWNLOAD"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="603dp"
+        app:srcCompat="@drawable/ittt" />
+
+</RelativeLayout>

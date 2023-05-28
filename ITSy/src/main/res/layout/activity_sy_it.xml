@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SyIt"
+    android:background="@color/white"
+    tools:ignore="RtlCompat">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_home"
+        app:elevation="0dp"
+        android:background="@color/white"
+        android:layout_height="65dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            app:title=" "
+            app:titleTextColor="@color/white">
+            <!--            android:background="@drawable/box_white_outline" >-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:src="@drawable/icon_arrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="70dp"
+                    android:textStyle="bold"
+                    android:text="Information Technology"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_blue"
+        android:layout_above="@id/bottom_navigator"
+        android:layout_below="@id/toolbar_home">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_navigator"
+            android:layout_below="@id/toolbar_home"
+            android:gravity="center"
+            android:background="@drawable/box_white_right_bottom_incurvre"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@drawable/box_peach_outline_white_solid"
+                android:text="TimeTable"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@drawable/box_peach_outline_white_solid"
+                android:text="Syllabus"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@drawable/box_peach_outline_white_solid"
+                android:text="grade"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@drawable/box_peach_outline_white_solid"
+                android:text="Classroom"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/box_blue_left_top_incurve"
+        app:itemIconSize="30sp"
+        app:itemIconTint="@drawable/selector_bottom_nav"
+        app:itemTextColor="@drawable/selector_bottom_nav"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/menu_bottom_nav" />
+
+
+</RelativeLayout>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".SyIt"-->
+<!--    android:background="@drawable/backgroundit">-->
+
+<!--    <include-->
+<!--        android:id="@+id/toolbar"-->
+<!--        layout="@layout/activity_toolbarit" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_centerHorizontal="true" >-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:width="200dp"-->
+<!--            android:height="70dp"-->
+<!--            android:text="@string/timetable"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="70dp"-->
+<!--            android:height="70dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/syllabus"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="70dp"-->
+<!--            android:height="70dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/grades"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="20sp" />-->
+
+
+
+<!--        <Button-->
+<!--            android:id="@+id/button5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="70dp"-->
+<!--            android:height="70dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/assignments"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="20sp" />-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/logout"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="640dp"-->
+<!--        android:background="@drawable/round_btn"-->
+<!--        android:text="LOGOUT"-->
+<!--        android:textColor="#FFFFFF" />-->
+<!--</RelativeLayout>-->

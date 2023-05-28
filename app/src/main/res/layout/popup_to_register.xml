@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@drawable/box_peach_outline_white_solid"
+    android:padding="10dp"
+    android:elevation="9dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/icon_admin"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/actor"
+        android:textColor="@color/text_black"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:lineSpacingExtra="7dp"
+        android:layout_marginTop="20dp"
+        android:text="Reach out to your Department Office to get credentials "/>
+
+    <Button
+        android:id="@+id/btn_close_popup"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:background="@drawable/box_peach_solid"/>
+
+</LinearLayout>

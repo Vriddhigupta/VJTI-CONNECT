@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CGPA ?</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="uppertext">Input Credit/Marks and Gpa per subject</string>
+    <string name="banneradtest">ca-app-pub-3940256099942544/6300978111</string>
+    
+
+    <string name="action_settings">Settings</string>
+    <string-array name="options">
+        <item>AA</item>
+        <item>AB</item>
+        <item>BB</item>
+        <item>BC</item>
+        <item>CC</item>
+        <item>CD</item>
+        <item>DD</item>
+
+
+    </string-array>
+    <string name="title_activity_notification_activity">notification_activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="mode">Mode</string>
+    <string name="credit">Credit</string>
+    <string name="gpa">GPA</string>
+    <string name="cgpa_0_00">CGPA: 0.00</string>
+    <string name="add">ADD</string>
+    <string name="click_the_item_below_to_edit_and_swipe_to_delete">Click The item below to Edit and Swipe to Delete</string>
+    <string name="no_semester_found_please_calculate_and_save">No Semester Found!! Please Calculate and Save</string>
+    <string name="calculate_now">Calculate Now</string>
+    <string name="editing_entry_no">Editing Entry No:</string>
+    <string name="gpa1">GPA:</string>
+    <string name="credit1">Credit :</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="slno">slno:</string>
+    <string name="insert_a_semestername">Insert A SemesterName</string>
+    <string name="save_semester">Save Semester</string>
+    <string name="semester_name">SEMESTER NAME</string>
+    <string name="cgpa1">CGPA:</string>
+</resources>

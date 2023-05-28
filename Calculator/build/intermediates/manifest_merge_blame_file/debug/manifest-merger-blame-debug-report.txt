@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cgpakoto.com.cgpa" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:5:5-67
+9-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:5:22-64
+10
+11    <application
+11-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:7:5-27:19
+12        android:allowBackup="true"
+12-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:8:9-35
+13        android:icon="@mipmap/ic_launcher"
+13-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:9:9-43
+14        android:label="@string/app_name"
+14-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:10:9-41
+15        android:roundIcon="@mipmap/ic_launcher_round"
+15-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:11:9-54
+16        android:supportsRtl="true" >
+16-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:12:9-35
+17        <activity android:name="cgpakoto.com.cgpa.Activities.Home" >
+17-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:13:9-16:20
+17-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:13:19-50
+18        </activity>
+19
+20        <meta-data
+20-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:18:9-20:70
+21            android:name="com.google.android.gms.ads.APPLICATION_ID"
+21-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:19:13-69
+22            android:value="ca-app-pub-4990484397475320~9389677540" />
+22-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:20:13-67
+23
+24        <activity
+24-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:22:9-26:20
+25            android:name="cgpakoto.com.cgpa.Activities.Calculator"
+25-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:23:13-50
+26            android:label="@string/app_name" >
+26-->C:\Users\Yash Gupta\Downloads\VJTI_final\Software_Chasers\Calculator\src\main\AndroidManifest.xml:24:13-45
+27        </activity>
+28    </application>
+29
+30</manifest>

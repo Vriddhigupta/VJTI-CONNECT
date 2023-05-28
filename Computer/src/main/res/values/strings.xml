@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Computer</string>
+    <string name="computer">Computer Engineering</string>
+    <string name="timetable">TIMETABLE</string>
+    <string name="syllabus">SYLLABUS</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="ty">SYLLABUS FOR T.Y.BTECH</string>
+    <string name="hint1">Enter a name for your file (EXAM_COURSENAME</string>
+    <string name="hint2">Enter a nane for your file (EXAM_COURSENAME)</string>
+    <string name="TEST">No file selected</string>
+    <string name="upload">UPLOAD FILE</string>
+    <string name="grade">GRADES</string>
+</resources>

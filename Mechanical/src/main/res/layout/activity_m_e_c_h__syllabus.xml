@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MECH_Syllabus"
+    tools:ignore="ContentDescription">
+    <include
+        android:id="@+id/toolbar7"
+        layout="@layout/toolbar7" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button28"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:textColor="#000000"
+        android:text="@string/TY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="239dp"
+        android:layout_height="66dp"
+        android:layout_centerInParent="true"
+        android:text="@string/download"
+        android:background="#00bcd4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</RelativeLayout>

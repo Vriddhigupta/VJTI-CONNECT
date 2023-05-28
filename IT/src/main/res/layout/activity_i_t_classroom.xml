@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IT_Grades"
+    android:gravity="center"
+    tools:ignore="ContentDescription">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@drawable/box_blue_left_incurve"
+        android:gravity="center"
+        app:title=" "
+        app:titleTextColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/icon_arrow"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="100dp"
+                android:gravity="center"
+                android:text="Classrooms"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:background="@color/dark_blue"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:background="@drawable/box_white_right_incurvre"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/toolbar"
+                    android:padding="12dp"
+                    android:hint="Enter name of chatroom"
+                    android:textAllCaps="false"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/box_peach_outline_white_solid"
+                    android:importantForAutofill="no"
+                    android:inputType="text" />
+
+
+                    <Button
+                        android:id="@+id/add"
+                        android:layout_width="310dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/editText"
+                        android:layout_centerHorizontal="true"
+                        android:onClick="insert_data"
+                        android:text="Add Classroom"
+                        android:textSize="17sp"
+                        android:textColor="#0F1117"
+                        android:layout_marginTop="8dp"
+                        android:textAllCaps="false"
+                        android:background="@drawable/box_peach_solid"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+            </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/add"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:fastScrollAlwaysVisible="true"
+                    android:fastScrollEnabled="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbarStyle="outsideInset" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".it_classroom"-->
+<!--    tools:ignore="ContentDescription">-->
+<!--    <include-->
+<!--        android:id="@+id/toolbar"-->
+<!--        layout="@layout/toolbar"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText"-->
+<!--        android:layout_width="280dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/toolbar"-->
+<!--        android:hint="@string/HINT3"-->
+<!--        android:importantForAutofill="no"-->
+<!--        android:inputType="text" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/add"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/editText"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:onClick="insert_data"-->
+<!--        android:text="@string/add"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large" />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/list1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/add"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:fastScrollAlwaysVisible="true"-->
+<!--        android:fastScrollEnabled="true"-->
+<!--        android:scrollbarAlwaysDrawVerticalTrack="true"-->
+<!--        android:scrollbarStyle="outsideInset" />-->
+
+
+
+
+
+
+
+
+<!--</RelativeLayout>-->

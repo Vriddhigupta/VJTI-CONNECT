@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".secondyear">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_home"
+        app:elevation="0dp"
+        android:background="@color/white"
+        android:layout_height="65dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            app:title=" "
+            app:titleTextColor="@color/white">
+            <!--            android:background="@drawable/box_white_outline" >-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:src="@drawable/icon_arrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="110dp"
+                    android:text="Second Year"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_blue"
+        android:layout_above="@id/bottom_navigator_firstyr"
+        android:layout_below="@id/toolbar_home">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_navigator_firstyr"
+            android:layout_below="@id/toolbar_home"
+            android:background="@drawable/box_white_right_bottom_incurvre"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="2"
+                        android:columnOrderPreserved="false"
+                        android:rowCount="4">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="131dp"
+                            android:layout_height="105dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            android:onClick="openfirst"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp"
+                            tools:targetApi="lollipop">
+
+                            <Button
+                                android:id="@+id/cs"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/box_gradient_peach_blue"
+                                android:fontFamily="@font/bevan"
+                                android:text="cs"
+                                android:textColor="#FFFFFF"
+                                android:textSize="30sp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="131dp"
+                            android:layout_height="105dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            android:onClick="openfirst"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp"
+                            tools:targetApi="lollipop">
+
+                            <Button
+                                android:id="@+id/it"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/box_gradient_pink_org"
+                                android:fontFamily="@font/bevan"
+                                android:text="IT"
+                                android:textColor="#FFFFFF"
+                                android:textSize="30sp" />
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="131dp"
+                            android:layout_height="105dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            android:onClick="openfirst"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp"
+                            tools:targetApi="lollipop">
+
+                            <Button
+                                android:id="@+id/extc"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/box_gradient_peach_org"
+                                android:fontFamily="@font/bevan"
+                                android:text="Extc"
+                                android:textColor="#FFFFFF"
+                                android:textSize="30sp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="131dp"
+                            android:layout_height="105dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            android:onClick="openfirst"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp"
+                            tools:targetApi="lollipop">
+
+                            <Button
+                                android:id="@+id/trical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/box_gradient_blue"
+                                android:fontFamily="@font/bevan"
+                                android:text="Etc"
+                                android:textColor="#FFFFFF"
+                                android:textSize="30sp" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="131dp"
+                            android:layout_height="105dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            android:onClick="openfirst"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp"
+                            tools:targetApi="lollipop">
+
+                            <Button
+                                android:id="@+id/tronics"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/box_gradient_pink_org"
+                                android:fontFamily="@font/bevan"
+                                android:text="tronic"
+                                android:textColor="#FFFFFF"
+                                android:textSize="28sp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="131dp"
+                            android:layout_height="105dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            android:onClick="openfirst"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp"
+                            tools:targetApi="lollipop">
+
+                            <Button
+                                android:id="@+id/civil"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/box_gradient_peach_blue"
+                                android:fontFamily="@font/bevan"
+                                android:text="civil"
+                                android:textColor="#FFFFFF"
+                                android:textSize="28sp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="131dp"
+                            android:layout_height="105dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            android:onClick="openfirst"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp"
+                            tools:targetApi="lollipop">
+
+                            <Button
+                                android:id="@+id/prod"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/box_gradient_blue"
+                                android:fontFamily="@font/bevan"
+                                android:text="Prod"
+                                android:textColor="#FFFFFF"
+                                android:textSize="30sp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="131dp"
+                            android:layout_height="105dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_margin="12dp"
+                            android:onClick="openfirst"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="6dp"
+                            tools:targetApi="lollipop">
+
+                            <Button
+                                android:id="@+id/mech"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/box_gradient_peach_org"
+                                android:fontFamily="@font/bevan"
+                                android:text="mech"
+                                android:textColor="#FFFFFF"
+                                android:textSize="30sp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </GridLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:onClick="openfirst"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        tools:targetApi="lollipop">
+
+                        <Button
+                            android:id="@+id/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/box_gradient_peach_blue"
+                            android:fontFamily="@font/bevan"
+                            android:text="textile"
+                            android:textColor="#FFFFFF"
+                            android:textSize="30sp" />
+
+                    </androidx.cardview.widget.CardView>
+
+
+<!--                    <Button-->
+<!--                        android:id="@+id/it"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="63dp"-->
+<!--                        android:layout_marginTop="25dp"-->
+<!--                        android:background="@drawable/box_gradient_peach_blue"-->
+<!--                        android:fontFamily="@font/bevan"-->
+<!--                        android:text="@string/IT"-->
+<!--                        android:textColor="#FFFFFF"-->
+<!--                        android:textSize="15sp" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/extc"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="61dp"-->
+<!--                        android:layout_marginTop="25dp"-->
+<!--                        android:background="@drawable/box_gradient_peach_blue"-->
+<!--                        android:fontFamily="@font/bevan"-->
+<!--                        android:text="@string/extc"-->
+<!--                        android:textColor="#FFFFFF"-->
+<!--                        android:textSize="15sp" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/trical"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_marginTop="25dp"-->
+<!--                        android:background="@drawable/box_gradient_peach_blue"-->
+<!--                        android:fontFamily="@font/bevan"-->
+<!--                        android:text="@string/etc"-->
+<!--                        android:textColor="#FFFFFF"-->
+<!--                        android:textSize="15sp" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/tronics"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_marginTop="25dp"-->
+<!--                        android:background="@drawable/box_gradient_peach_blue"-->
+<!--                        android:fontFamily="@font/bevan"-->
+<!--                        android:text="@string/electronics"-->
+<!--                        android:textColor="#FFFFFF"-->
+<!--                        android:textSize="15sp" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/civil"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_marginTop="25dp"-->
+<!--                        android:background="@drawable/box_gradient_peach_blue"-->
+<!--                        android:fontFamily="@font/bevan"-->
+<!--                        android:text="@string/civil"-->
+<!--                        android:textColor="#FFFFFF"-->
+<!--                        android:textSize="15sp" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/prod"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_marginTop="25dp"-->
+<!--                        android:background="@drawable/box_gradient_peach_blue"-->
+<!--                        android:fontFamily="@font/bevan"-->
+<!--                        android:text="@string/Prod"-->
+<!--                        android:textColor="#FFFFFF"-->
+<!--                        android:textSize="15sp" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/mech"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_marginTop="25dp"-->
+<!--                        android:background="@drawable/box_gradient_peach_blue"-->
+<!--                        android:fontFamily="@font/bevan"-->
+<!--                        android:text="@string/mech"-->
+<!--                        android:textColor="#FFFFFF"-->
+<!--                        android:textSize="15sp" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/text"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_marginTop="25dp"-->
+<!--                        android:fontFamily="@font/bevan"-->
+<!--                        android:text="@string/textile"-->
+<!--                        android:textColor="#FFFFFF"-->
+<!--                        android:textSize="15sp"-->
+<!--                        android:background="@drawable/box_gradient_peach_blue"/>-->
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator_firstyr"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/box_blue_left_top_incurve"
+        app:itemIconSize="30sp"
+        app:itemIconTint="@drawable/selector_bottom_nav"
+        app:itemTextColor="@drawable/selector_bottom_nav"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/menu_bottom_nav" />
+
+</RelativeLayout>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<ScrollView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+<!--<RelativeLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".secondyear"-->
+<!--    android:background="@drawable/back123"-->
+<!--&gt;-->
+
+<!--    <include-->
+<!--        layout="@layout/toolbarsy"-->
+<!--        android:id="@+id/toolbar"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@id/toolbar"-->
+<!--        >-->
+
+<!--        <Button-->
+<!--            android:id="@+id/cs"-->
+<!--            android:layout_width="260dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/cs"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/it"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="63dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/IT"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/extc"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="61dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/extc"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/trical"-->
+<!--            android:layout_width="260dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/etc"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/tronics"-->
+<!--            android:layout_width="260dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/electronics"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/civil"-->
+<!--            android:layout_width="260dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/civil"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/prod"-->
+<!--            android:layout_width="260dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/Prod"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/mech"-->
+<!--            android:layout_width="260dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/round_btn2"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/mech"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/text"-->
+<!--            android:layout_width="260dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:fontFamily="@font/bevan"-->
+<!--            android:text="@string/textile"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="15sp"-->
+<!--            android:background="@drawable/round_btn2"/>-->
+
+<!--    </LinearLayout>-->
+<!--</RelativeLayout>-->
+<!--</ScrollView>-->

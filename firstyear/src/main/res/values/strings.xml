@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirstYear</string>
+    <string name="batch3">Batch3</string>
+    <string name="batch1">batch1</string>
+    <string name="batch4">batch4</string>
+    <string name="batch2">Batch2</string>
+    <string name="batch5">batch5</string>
+    <string name="batch6">Batch6</string>
+
+</resources>

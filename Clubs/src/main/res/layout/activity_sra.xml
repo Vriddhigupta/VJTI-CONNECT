@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Sra">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_home"
+        app:elevation="0dp"
+        android:background="@color/white"
+        android:layout_height="65dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            app:title=" "
+            app:titleTextColor="@color/white">
+            <!--            android:background="@drawable/box_white_outline" >-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:src="@drawable/icon_arrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center"
+                    android:text="Society of Robotics and Automation"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <View
+        android:id="@+id/hrline"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/light_grey"
+        android:layout_below="@id/toolbar_home"/>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerImageSlider"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/hrline"
+        android:layout_marginTop="20dp"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewPagerImageSlider"
+        android:lineSpacingExtra="5dp"
+        android:padding="20dp"
+        android:text="Started in September 2008, the Society of Robotics And Automation, better known as the SRA is a student's society which deals with Robotics, machine vision,  Automation and the allied fields. SRA aims to create awareness and promotes robotics among students at VJTI and other leading colleges in Mumbai.We start right from an introduction to the basics of robotics.We encourage the students to pursue robotics as a serious career choice and give the relevant exposure for the same.  "
+        android:textAlignment="center"
+        android:textColor="@color/text_black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/toknow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@id/textView"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="16dp"
+            android:src="@drawable/line_strokes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To know more, visit us on "
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="16dp"
+            android:src="@drawable/line_strokes"
+            android:rotation="180"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toknow"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ig"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:autoLink="all"
+            android:background="@drawable/icon_instagram"
+            android:clickable="true"
+            android:elevation="10dp"
+            android:padding="4dp"
+            android:src="@drawable/icon_instagram" />
+
+
+        <TextView
+            android:id="@+id/fb"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="30dp"
+            android:autoLink="all"
+            android:background="@drawable/icon_facebook_logo"
+            android:clickable="true"
+            android:elevation="10dp"
+            android:src="@drawable/icon_facebook_logo" />
+
+        <TextView
+            android:id="@+id/wb"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:autoLink="all"
+            android:background="@drawable/icon_web"
+            android:clickable="true"
+            android:elevation="10dp"
+            android:src="@drawable/icon_web" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<ScrollView-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="fill_parent"-->
+<!--android:layout_height="fill_parent">-->
+
+
+<!--<RelativeLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@drawable/back4"-->
+<!--    tools:context=".Sra">-->
+
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/viewPager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="313dp"-->
+<!--        android:layout_below="@id/imageView2"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="96dp"-->
+<!--        android:layout_marginBottom="8dp">-->
+
+<!--    </androidx.viewpager.widget.ViewPager>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/SliderDots"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="433dp"-->
+<!--        android:gravity="center_vertical|center_horizontal"-->
+<!--        android:orientation="horizontal" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="77dp"-->
+<!--        app:srcCompat="@drawable/sra1" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="402dp"-->
+<!--        android:layout_below="@id/SliderDots"-->
+<!--        android:layout_marginTop="35dp"-->
+<!--        android:fontFamily="cursive"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Started in September 2008, the Society of Robotics And Automation, better known as the SRA is a student's society which deals with Robotics, machine vision,  Automation and the allied fields. SRA aims to create awareness and promotes robotics among students at VJTI and other leading colleges in Mumbai.We start right from an introduction to the basics of robotics.We encourage the students to pursue robotics as a serious career choice and give the relevant exposure for the same.  "-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="25sp"-->
+<!--        android:textStyle="italic" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/fb"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/textView2"-->
+<!--        android:layout_marginTop="17dp"-->
+<!--        android:autoLink="all"-->
+<!--        android:clickable="true"-->
+<!--        android:text="@string/fb1"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="20sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ig"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/fb"-->
+<!--        android:layout_marginTop="26dp"-->
+<!--        android:autoLink="all"-->
+<!--        android:clickable="true"-->
+<!--        android:text="@string/ig1"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="20sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/wb"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/ig"-->
+<!--        android:layout_marginTop="28dp"-->
+<!--        android:autoLink="all"-->
+<!--        android:clickable="true"-->
+<!--        android:text="@string/wb"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="20sp" />-->
+
+<!--</RelativeLayout>-->
+<!--</ScrollView>-->

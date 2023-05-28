@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">IT</string>
+    <string name="it">Information Technology</string>
+    <string name="tt">TIMETABLE</string>
+    <string name="syllabus">SYLLABUS</string>
+    <string name="grades">GRADES</string>
+    <string name="downlaod">DOWNLOAD</string>
+    <string name="text">SYLLABUS FOR T.Y.BTECH</string>
+    <string name="DOWNLOAD">DOWNLOAD</string>
+    <string name="hint">Enter name of the file (EXAM_COURSENAME)</string>
+    <string name="UPLOAD">UPLOAD FILE</string>
+    <string name="file">No file selected</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="login">login</string>
+    <string name="new_user">New User</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="name">NAME</string>
+    <string name="username">USERNAME</string>
+    <string name="logout">Logout</string>
+    <string name="login_shared_preference">com.example.it.SaveSharedPreference_login_shared_preference</string>
+    <string name="login_status_shared_preference">com.example.it.SaveSharedPreference_login_status_shared_preference</string>
+    <string name="classroom">CLASSROOM</string>
+    <string name="logout1">LOGOUT</string>
+    <string name="namehint">Enter Your Name</string>
+    <string name="enter">Enter a Message</string>
+    <string name="assign">ASSIGNMENTS</string>
+    <string name="send">SEND</string>
+    <string name="add">ADD CHATROOM</string>
+    <string name="hint2">Enter the Name of Assignment (COURSE_NAME NUMBER)</string>
+    <string name="HINT3">ENTER NAME OF CHATROOM</string>
+    <string name="LOGIN">"LOGIN "</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fourthyear">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.login.LoginCs"
+            android:label="@string/title_activity_login_cs">
+
+        </activity>
+        <activity android:name=".GRADESTE" />
+        <activity android:name=".SYLTE" />
+        <activity android:name=".TTTE" />
+        <activity android:name=".TE" />
+        <activity android:name=".GRADESPR" />
+        <activity android:name=".SLYPR" />
+        <activity android:name=".TTPR" />
+        <activity android:name=".Pr" />
+        <activity android:name=".GRADESCI" />
+        <activity android:name=".SYLCI" />
+        <activity android:name=".TTCI" />
+        <activity android:name=".Ci" />
+        <activity android:name=".GRADESEl" />
+        <activity android:name=".SYLEl" />
+        <activity android:name=".TTEL" />
+        <activity android:name=".El" />
+        <activity android:name=".GRADEE" />
+        <activity android:name=".SYLE" />
+        <activity android:name=".TTE" />
+        <activity android:name=".E" />
+        <activity android:name=".Gradesme" />
+        <activity android:name=".SYLME" />
+        <activity android:name=".TTME" />
+        <activity android:name=".Mech" />
+        <activity android:name=".GRADEX" />
+        <activity android:name=".SYLEX" />
+        <activity android:name=".TTEX" />
+        <activity android:name=".Extc" />
+        <activity android:name=".GRADESI" />
+        <activity android:name=".SYLI" />
+        <activity android:name=".GradeCs" />
+        <activity android:name=".SyllabusCs" />
+        <activity android:name=".TTI" />
+        <activity android:name=".It" />
+        <activity android:name=".TimeTable" />
+        <activity android:name=".Cs" />
+        <activity android:name=".fourthyear">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

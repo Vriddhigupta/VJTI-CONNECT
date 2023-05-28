@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".textile"
+    tools:ignore="ContentDescription"
+    android:background="@drawable/backgroundtext">
+    <include
+        android:id="@+id/toolbar4"
+        layout="@layout/toolbar4" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="239dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/toolbar4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/bevan"
+        android:text="@string/Timetable"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="239dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/button13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/bevan"
+        android:text="@string/Syllabus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button56"
+        android:layout_width="239dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/button15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/bevan"
+        android:text="@string/grades"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>
